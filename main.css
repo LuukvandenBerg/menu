@@ -1,0 +1,82 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+
+nav {
+    display: block;
+    top: 0;
+    transition-property: top;
+    transition-duration: 500ms;
+    height: 2em;
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+}
+
+nav ul{
+    margin-left: 675px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 2em;
+    margin-top: -20px;
+}
+
+nav ul li:hover{
+    background-color: lightgray;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.main{
+    margin-top: 2em;
+}
+
+#nieuws{
+    width: 100%;
+}
+
+#nieuws img{
+    margin: 0 auto;
+    display: block;
+}
+
+#nieuws p{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#sport{
+    width: 100%;
+}
+
+#sport img{
+    margin: 0 auto;
+    display: block;
+}
+
+#sport p{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#tech{
+    width: 100%;
+}
+
+#tech img{
+    margin: 0 auto;
+    display: block;
+}
+
+#tech p{
+    width: 75%;
+    margin: 0 auto;
+}
